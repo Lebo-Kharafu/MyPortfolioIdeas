@@ -1,3 +1,63 @@
+:root {
+    --header-background: hsl(0, 0%, 0%);
+    --body-background: hsl(0, 0%, 41%);
+    --main-background-color: hsl(0, 0%, 100%);
+
+    --header-text-color: hsl(0, 0%, 100%);
+    --main-text-color: hsl(0, 0%, 0%);
+    --nav-text-color: hsl(0, 0%, 50%);
+    --nav-text-Hovercolor: hsl(0, 0%, 90%);
+}
+
+
 body{
-    background-color: dimgray;
+    background-color: var(--body-background);
+}
+
+header{
+    background-color: var(--header-background);
+    color: var(--header-text-color);
+}
+
+#site-Logo {
+    width:10em;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#nav-Links{
+    list-style: none;
+    display: flex; 
+}
+
+#nav-Links li{
+    margin-left: 1em;
+}
+
+#nav-Links a{
+    text-decoration: none;
+    color: var(--nav-text-color);
+    font-size: 2rem;
+    transition: color 0.5s;
+}
+
+#nav-Links a:hover{
+    color: var(--nav-text-Hovercolor);
+}
+
+main > section{
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+main > article{
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
 }
