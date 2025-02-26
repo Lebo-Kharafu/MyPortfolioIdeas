@@ -1,0 +1,39 @@
+
+:root {
+    --header-background: hsl(0, 0%, 0%);
+    --body-background: hsl(0, 0%, 41%);
+    --main-background-color: hsl(0, 0%, 100%);
+
+    --header-text-color: hsl(0, 0%, 100%);
+    --main-text-color: hsl(0, 0%, 0%);
+    --nav-text-color: hsl(0, 0%, 50%);
+    --nav-text-Hovercolor: hsl(0, 0%, 90%);
+
+    --side-padding: 10vw;
+}
+
+header{
+    background-color: var(--header-background);
+    color: var(--header-text-color);
+}
+
+#nav-Links a:hover{
+    color: var(--nav-text-Hovercolor);
+}
+
+#nav-Links a{
+    text-decoration: none;
+    color: var(--nav-text-color);
+    font-size: 2rem;
+    transition: color 0.5s;
+}
+
+main > section{
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+main > article{
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}

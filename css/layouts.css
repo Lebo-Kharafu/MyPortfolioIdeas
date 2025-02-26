@@ -1,0 +1,35 @@
+:root {
+    --header-background: hsl(0, 0%, 0%);
+    --body-background: hsl(0, 0%, 41%);
+    --main-background-color: hsl(0, 0%, 100%);
+
+    --header-text-color: hsl(0, 0%, 100%);
+    --main-text-color: hsl(0, 0%, 0%);
+    --nav-text-color: hsl(0, 0%, 50%);
+    --nav-text-Hovercolor: hsl(0, 0%, 90%);
+
+    --side-padding: 10vw;
+}
+
+header{
+    padding-left: var(--side-padding);
+    padding-right:  var(--side-padding);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#nav-Links li{
+    margin-left: 1em;
+}
+
+main{
+    padding-left: var(--side-padding);
+    padding-right:  var(--side-padding);
+}

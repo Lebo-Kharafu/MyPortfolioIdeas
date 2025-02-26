@@ -7,16 +7,19 @@
     --main-text-color: hsl(0, 0%, 0%);
     --nav-text-color: hsl(0, 0%, 50%);
     --nav-text-Hovercolor: hsl(0, 0%, 90%);
+
+    --side-padding: 10vw;
 }
 
 
 body{
     background-color: var(--body-background);
+    margin: 0;
 }
 
-header{
-    background-color: var(--header-background);
-    color: var(--header-text-color);
+
+.layout{
+    display: grid;
 }
 
 #site-Logo {
@@ -24,40 +27,18 @@ header{
     height: auto;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1em;
-    padding-right: 1em;
-}
 
 #nav-Links{
     list-style: none;
     display: flex; 
 }
 
-#nav-Links li{
-    margin-left: 1em;
-}
 
-#nav-Links a{
-    text-decoration: none;
-    color: var(--nav-text-color);
-    font-size: 2rem;
-    transition: color 0.5s;
-}
+/*.secondary-contianer{
+    display: flex;
+    flex-direction: column;
+}*/
 
-#nav-Links a:hover{
-    color: var(--nav-text-Hovercolor);
-}
 
-main > section{
-    background-color: var(--main-background-color);
-    color: var(--main-text-color);
-}
 
-main > article{
-    background-color: var(--main-background-color);
-    color: var(--main-text-color);
-}
+
