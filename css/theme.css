@@ -11,6 +11,9 @@
 
     --side-padding: 10vw;
 }
+body{
+    background-color: var(--body-background);
+}
 
 header{
     background-color: var(--header-background);

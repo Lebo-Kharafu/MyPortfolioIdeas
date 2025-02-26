@@ -11,9 +11,7 @@
     --side-padding: 10vw;
 }
 
-
 body{
-    background-color: var(--body-background);
     margin: 0;
 }
 
@@ -34,10 +32,6 @@ body{
 }
 
 
-/*.secondary-contianer{
-    display: flex;
-    flex-direction: column;
-}*/
 
 
 

@@ -14,7 +14,7 @@
 header{
     padding-left: var(--side-padding);
     padding-right:  var(--side-padding);
-
+    margin-bottom: 2vw;
 }
 
 nav {
@@ -32,4 +32,50 @@ nav {
 main{
     padding-left: var(--side-padding);
     padding-right:  var(--side-padding);
+}
+
+.layout{
+    display: grid;
+}
+
+#Profile-pic{
+    grid-area: profile-pic;
+}
+#name-container{
+    grid-area: name;
+}
+#intro-info{
+    grid-area: info-list;
+}
+#intro-container {
+    grid-template-areas: 'profile-pic name'
+                        'profile-pic info-list';
+}
+
+#skill-container{
+    grid-area: skills;
+}
+#aboutMe-container{
+    grid-area: aboutMe;
+}
+#profile-slider{
+    grid-area: profiles;
+}
+#main-container {
+    grid-template-areas: 'skills aboutMe'
+                        'skills profiles';
+    gap: 2vw;
+}
+
+#slider{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#skillList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
 }
