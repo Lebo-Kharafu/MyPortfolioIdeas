@@ -9,10 +9,12 @@
     --nav-text-Hovercolor: hsl(0, 0%, 90%);
 
     --side-padding: 10vw;
+    --img-top-padding: 0.5rem;
+    --img-size: 13rem;
 }
 
 body{
-    margin: 0;
+    margin: 0rem;
 }
 
 
@@ -31,8 +33,39 @@ body{
     display: flex; 
 }
 
+#MyName{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    padding-top: var(--img-top-padding);
+    text-align: justify;
+}
 
+#currentPosition{
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
 
+#intro-list{
+    list-style: none;
+    font-size: 1.2rem;
+}
 
+.section-heading{
+    text-align: center;
+}
+
+#Profile-pic{
+    margin-top: 0rem;
+    padding-top: var(--img-top-padding);
+    width: var(--img-size);
+    height: var(--img-size);
+}
+
+.secondary-contianer{
+    /*align-content: center;*/
+}
 
 
