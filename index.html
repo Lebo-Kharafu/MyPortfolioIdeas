@@ -26,7 +26,7 @@
             <img id="Profile-pic" src="/images/placeholder.jpg" alt="Profile picture">
             <section id="name-container">
                 <h1 id="MyName">Lebo Kharafu</h1>
-                <h5 id="currentPosition">Bsc Computer Science at Wits 2023-2025</h5>
+                <h5 id="currentPosition">Bsc Computer Science at Wits 2023-Present</h5>
             </section>
             <section id="intro-info">
                 <ul id="intro-list">
@@ -46,7 +46,7 @@
         <section class="secondary-contianer" id="skill-container">
             <h1 class="section-heading">Skills</h1>
             <hr>
-            <form>
+            <form id="skill-filter">
                 <label>
                     <input type="checkbox" name="Education">
                     Education
@@ -63,44 +63,46 @@
             <section id="skillList">
                 <section>
                     <img src="/images/Java-icon.svg" alt="Java Icon" width="30em" height="auto">
-                    <progress value="80" max="100"></progress>
+                    <progress title="Java" value="80" max="100"></progress>
                 </section>
                 <section>
                     <img src="/images/Java-icon.svg" alt="Java Icon" width="30em" height="auto">
-                    <progress value="80" max="100"></progress>
-                    <label for="html">HTML</label>
+                    <progress title="Java"value="80" max="100"></progress>
                 </section>
             </section>
         </section>
         <section class="secondary-contianer" id="aboutMe-container">
             <h1 class="section-heading"> About me </h1>
+            <hr>
             <section>
                 <h3>Location </h3>
-                <h5>South Africa, Free State, Lejweleputswa, Matjhabeng, Welkom, 9460 </h5>
+                <p id="address">South Africa, Free State, Lejweleputswa, Matjhabeng, Welkom, 9460 </p>
             </section>
             <section>
                 <h3>Sammary</h3>
-                <p>
+                <p id="about-me-text">
                     Hello, I'm Lebo Kharafu, a third-year Computer Science student at University of Witswatersrand. My passion for
-                    technology and problem-solving has driven me to explore [Your Main Areas of Interest], where I
+                    technology and problem-solving has driven me to explore: Software Development & Design, Cybersecurity, Creative Coding, and recently Machine Learning, where I
                     continuously seek to enhance my skills and knowledge.
 
-                    I have experience working with [Programming Languages, Frameworks, and Tools], and I have developed
-                    projects involving [Brief Mention of Notable Projects or Technologies Used]. One of my recent
-                    projects, [Project Name], focused on [Short Description of the Project's Purpose and Outcome].
+                    I have experience working with [Java, C++, Python, JavaScript, Delphi, SQL; Express, Node, Okhttp, Json; 
+                    Git, Github, Linux, Java-Swing, Netbeans, Android-Studio, Qt-Creator, Scene-Builder, VsCode, Ms-Office], and I have developed
+                    projects involving [This Porfolio-site, School-Projects, others below]. One of my recent
+                    projects, [TimeMan], focused on [Time mnagement for students].
 
-                    Beyond academics, I am actively involved in [Clubs, Hackathons, Research, or Volunteer Work]. These
-                    experiences have helped me develop strong [Soft Skills, e.g., teamwork, leadership, communication]
+                    Beyond academics, I am actively involved in [ENC-Leadership, Rotary-Dunamis-Interact]. These
+                    experiences have helped me develop strong [Communication,Soft-Skills]
                     while collaborating with peers on innovative solutions.
 
                     I am driven by a curiosity to solve complex problems and a commitment to continuous learning. My
-                    goal is to [Career Aspirations or What You Hope to Achieve in the Tech Industry]. I am always eager
-                    to take on new challenges and connect with like-minded individuals to create impactful solutions.
+                    goal is to [Earn a Turing Award in Computer Sceince Research, Open a startUp mainly amimed to Train High Schoolers to Code/Develop/Maintain software]. 
+                    I am always eager to take on new challenges and connect with like-minded individuals to create impactful solutions.
                 </p>
             </section>
         </section>
         <article class="secondary-contianer" id="profile-slider">
             <h1 class="section-heading">Profiles</h1>
+            <hr>
             <section id="slider">
                 <section>
                     <h3>Github</h3>
@@ -120,6 +122,12 @@
             </section>
         </article>
     </main>
+    <!--<footer class="secondary-contianer"  id="footer-content">
+        <ul id="footer-list">
+            <li><a href="#">Since 2025</a></li>
+            <li><a href="#">Contact me</a></li>
+        </ul>
+    </footer>-->
 </body>
 
 </html>

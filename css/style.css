@@ -13,11 +13,6 @@
     --img-size: 13rem;
 }
 
-body{
-    margin: 0rem;
-}
-
-
 .layout{
     display: grid;
 }
@@ -64,8 +59,10 @@ body{
     height: var(--img-size);
 }
 
-.secondary-contianer{
-    /*align-content: center;*/
+#address{
+    font-size: small;
 }
+
+
 
 

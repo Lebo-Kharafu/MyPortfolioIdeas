@@ -11,6 +11,12 @@
     --side-padding: 10vw;
 }
 
+body{
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+
 header{
     padding-left: var(--side-padding);
     padding-right:  var(--side-padding);
@@ -55,9 +61,36 @@ main{
 #skill-container{
     grid-area: skills;
 }
+
+#skill-filter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #aboutMe-container{
     grid-area: aboutMe;
+    
 }
+
+h3 + #address {
+    margin-top: -1em; 
+    margin-bottom: -1em;
+}
+
+#address {
+    margin-left: 1em;
+}
+
+#about-me-text{
+    text-align: justify;
+}
+
+.secondary-contianer{
+    padding: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 #profile-slider{
     grid-area: profiles;
 }
@@ -80,3 +113,22 @@ main{
     justify-items: center;
 
 }
+
+progress {
+	margin: 0 auto;
+	width: 35em;
+	height: auto;
+}
+
+/*
+#footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}*/
