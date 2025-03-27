@@ -1,77 +1,87 @@
 {
     "Android": {
         "name": "Android",
-        "progress": 68,
-        "src": "images/icon/Android.png"
+        "progress": 75,
+        "src": "/images/icon/Android.png"
     },
     "C++ (CPlusPlus)": {
         "name": "C++ (CPlusPlus)",
-        "progress": 70,
-        "src": "images/icon/C++ (CPlusPlus).png"
+        "progress": 75,
+        "src": "/images/icon/C++ (CPlusPlus).png"
     },
     "CSS3": {
         "name": "CSS3",
-        "progress": 67,
-        "src": "images/icon/CSS3.png"
+        "progress": 75,
+        "src": "/images/icon/CSS3.png"
     },
     "Git": {
         "name": "Git",
-        "progress": 70,
-        "src": "images/icon/Git.png"
+        "progress": 75,
+        "src": "/images/icon/Git.png"
     },
     "GitHub": {
         "name": "GitHub",
-        "progress": 65,
-        "src": "images/icon/GitHub.png"
+        "progress": 75,
+        "src": "/images/icon/GitHub.png"
     },
     "HTML5": {
         "name": "HTML5",
-        "progress": 76,
-        "src": "images/icon/HTML5.png"
+        "progress": 75,
+        "src": "/images/icon/HTML5.png"
     },
     "Java": {
         "name": "Java",
-        "progress": 78,
-        "src": "images/icon/Java.png"
+        "progress": 75,
+        "src": "/images/icon/Java.png"
     },
     "JavaScript": {
         "name": "JavaScript",
-        "progress": 45,
-        "src": "images/icon/JavaScript.png"
+        "progress": 75,
+        "src": "/images/icon/JavaScript.png"
     },
     "JSON": {
         "name": "JSON",
-        "progress": 70,
-        "src": "images/icon/JSON.png"
+        "progress": 75,
+        "src": "/images/icon/JSON.png"
     },
     "LaTeX": {
         "name": "LaTeX",
-        "progress": 58,
-        "src": "images/icon/LaTeX.png"
+        "progress": 75,
+        "src": "/images/icon/LaTeX.png"
     },
     "Markdown": {
         "name": "Markdown",
-        "progress": 59,
-        "src": "images/icon/Markdown.png"
+        "progress": 75,
+        "src": "/images/icon/Markdown.png"
+    },
+    "Node.js": {
+        "name": "Node.js",
+        "progress": 75,
+        "src": "/images/icon/Node.js.png"
+    },
+    "NPM": {
+        "name": "NPM",
+        "progress": 75,
+        "src": "/images/icon/NPM.png"
     },
     "PHP": {
         "name": "PHP",
-        "progress": 68,
-        "src": "images/icon/PHP.png"
+        "progress": 75,
+        "src": "/images/icon/PHP.png"
     },
     "Powershell": {
         "name": "Powershell",
-        "progress": 55,
-        "src": "images/icon/Powershell.png"
+        "progress": 75,
+        "src": "/images/icon/Powershell.png"
     },
     "Python": {
         "name": "Python",
-        "progress": 79,
-        "src": "images/icon/Python.png"
+        "progress": 75,
+        "src": "/images/icon/Python.png"
     },
     "TypeScript": {
         "name": "TypeScript",
-        "progress": 38,
-        "src": "images/icon/TypeScript.png"
+        "progress": 75,
+        "src": "/images/icon/TypeScript.png"
     }
 }

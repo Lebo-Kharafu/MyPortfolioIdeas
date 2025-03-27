@@ -27,7 +27,7 @@ for %%f in (%ICON_DIR%/*) do (
                 echo , >> "%JSON_FILE%"
             )
             :: Add the entry to skills.json
-            echo     "!filename!": {"name":"!filename!","progress":75,"src":"%ICON_DIR%/!filename!!extension!"} >> "%JSON_FILE%"
+            echo     "!filename!": {"name":"!filename!","progress":75,"src":"/%ICON_DIR%/!filename!!extension!"} >> "%JSON_FILE%"
         )
     )
 )
