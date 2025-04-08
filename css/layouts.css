@@ -177,3 +177,23 @@ progress {
     justify-content: space-evenly;
 }
 
+
+
+@media (max-width:679px) {
+    #main-container {
+        grid-template-areas: 'aboutMe'
+                            'skills'
+                            'profiles';
+        grid-template-columns: 1fr;  
+        grid-template-rows: 1fr 2fr 1fr;  
+    }
+
+    #intro-container {
+        grid-template-areas:
+                            'name'
+                            'profile-pic'
+                            'info-list';
+        grid-template-columns: 1fr;  
+        grid-template-rows: 1fr 2fr 1fr;  
+    }
+}
