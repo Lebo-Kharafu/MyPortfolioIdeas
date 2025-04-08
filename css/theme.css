@@ -1,4 +1,3 @@
-
 :root {
     --header-background: hsl(0, 0%, 0%);
     --body-background: hsl(0, 0%, 41%);
@@ -11,6 +10,7 @@
 
     --side-padding: 10vw;
 }
+
 body{
     background-color: var(--body-background);
 }
@@ -39,4 +39,9 @@ main > section{
 main > article{
     background-color: var(--main-background-color);
     color: var(--main-text-color);
+}
+
+#footer-content{
+    background-color: var(--header-background);
+    color: var(--header-text-color);
 }

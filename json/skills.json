@@ -1,87 +1,87 @@
 {
     "Android": {
         "name": "Android",
-        "progress": 75,
+        "progress": 65,
         "src": "/images/icon/Android.png"
     },
     "C++ (CPlusPlus)": {
         "name": "C++ (CPlusPlus)",
-        "progress": 75,
+        "progress": 70,
         "src": "/images/icon/C++ (CPlusPlus).png"
     },
     "CSS3": {
         "name": "CSS3",
-        "progress": 75,
+        "progress": 70,
         "src": "/images/icon/CSS3.png"
     },
     "Git": {
         "name": "Git",
-        "progress": 75,
+        "progress": 85,
         "src": "/images/icon/Git.png"
     },
     "GitHub": {
         "name": "GitHub",
-        "progress": 75,
+        "progress": 60,
         "src": "/images/icon/GitHub.png"
     },
     "HTML5": {
         "name": "HTML5",
-        "progress": 75,
+        "progress": 95,
         "src": "/images/icon/HTML5.png"
     },
     "Java": {
         "name": "Java",
-        "progress": 75,
+        "progress": 85,
         "src": "/images/icon/Java.png"
     },
     "JavaScript": {
         "name": "JavaScript",
-        "progress": 75,
+        "progress": 78,
         "src": "/images/icon/JavaScript.png"
     },
     "JSON": {
         "name": "JSON",
-        "progress": 75,
+        "progress": 99,
         "src": "/images/icon/JSON.png"
     },
     "LaTeX": {
         "name": "LaTeX",
-        "progress": 75,
+        "progress": 68,
         "src": "/images/icon/LaTeX.png"
     },
     "Markdown": {
         "name": "Markdown",
-        "progress": 75,
+        "progress": 80,
         "src": "/images/icon/Markdown.png"
     },
     "Node.js": {
         "name": "Node.js",
-        "progress": 75,
+        "progress": 55,
         "src": "/images/icon/Node.js.png"
     },
     "NPM": {
         "name": "NPM",
-        "progress": 75,
+        "progress": 65,
         "src": "/images/icon/NPM.png"
     },
     "PHP": {
         "name": "PHP",
-        "progress": 75,
+        "progress": 65,
         "src": "/images/icon/PHP.png"
     },
     "Powershell": {
         "name": "Powershell",
-        "progress": 75,
+        "progress": 42,
         "src": "/images/icon/Powershell.png"
     },
     "Python": {
         "name": "Python",
-        "progress": 75,
+        "progress": 78,
         "src": "/images/icon/Python.png"
     },
     "TypeScript": {
         "name": "TypeScript",
-        "progress": 75,
+        "progress": 51,
         "src": "/images/icon/TypeScript.png"
     }
 }

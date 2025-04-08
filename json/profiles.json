@@ -1,18 +1,22 @@
 {
     "Github": {
         "username": "Lebo-Kharafu",
-        "src": "/images/icon/Android.png"
+        "src": "https://img.icons8.com/ios-filled/50/000000/github.png"
     },
-    "Linkeden": {
+    "LinkedIn": {
         "username": "Lebo-Kharafu",
-        "src": "/images/icon/Android.png"
+        "src": "https://img.icons8.com/ios-filled/50/000000/linkedin.png"
     },
     "Instagram": {
-        "username": "Lebo-Kharafu",
-        "src": "/images/icon/Android.png"
+        "username": "@lebzique",
+        "src": "https://img.icons8.com/ios-filled/50/000000/instagram.png"
     },
     "Facebook": {
         "username": "Lebo Kharafu",
-        "src": "/images/icon/Android.png"
+        "src": "https://img.icons8.com/ios-filled/50/000000/facebook.png"
     },
+    "Ko-Fi": {
+        "username": "lebokharafu",
+        "src": "https://img.icons8.com/ios-filled/50/000000/ko-fi.png"
+    }
 }

@@ -7,10 +7,6 @@
     --main-text-color: hsl(0, 0%, 0%);
     --nav-text-color: hsl(0, 0%, 50%);
     --nav-text-Hovercolor: hsl(0, 0%, 90%);
-
-    --side-padding: 10vw;
-    --img-top-padding: 0.5rem;
-    --img-size: 13rem;
 }
 
 .layout{
@@ -22,10 +18,13 @@
     height: auto;
 }
 
-
 #nav-Links{
     list-style: none;
     display: flex; 
+}
+
+ul{
+    list-style: none;
 }
 
 #MyName{
@@ -52,17 +51,8 @@
     text-align: center;
 }
 
-#Profile-pic{
-    margin-top: 0rem;
-    padding-top: var(--img-top-padding);
-    width: var(--img-size);
-    height: var(--img-size);
-}
-
 #address{
     font-size: small;
 }
-
-
 
 
