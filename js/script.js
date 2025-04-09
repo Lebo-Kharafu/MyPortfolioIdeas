@@ -57,6 +57,7 @@ function updateProfiles() {
                     // Create a new section element
                     const slideSection = document.createElement('section');
                     slideSection.classList.add('profiles');
+                    //slideSection.classList.add('glass');
 
                     const h1 = document.createElement("h1");
                     const textNode = document.createTextNode(slideKey);

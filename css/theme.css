@@ -1,6 +1,6 @@
 :root {
     --header-background: hsl(0, 0%, 0%);
-    --body-background: hsl(0, 0%, 41%);
+    --body-background: hsla(236, 12%, 23%, 0.788);
     --main-background-color: hsl(0, 0%, 100%);
 
     --header-text-color: hsl(0, 0%, 100%);
@@ -13,6 +13,12 @@
 
 body{
     background-color: var(--body-background);
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/myCustomFont.ttf') format('truetype');
 }
 
 header{

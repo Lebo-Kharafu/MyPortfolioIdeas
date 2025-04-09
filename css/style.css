@@ -55,4 +55,13 @@ ul{
     font-size: small;
 }
 
-
+.glass{
+    /*background: linear-gradient(45deg, rgba(255, 255, 255, 0.9),rgba(255, 255, 255,0.2));
+     background: linear-gradient(180deg, rgba(51, 174, 223, 0.1),rgba(51, 174, 223,0));*/
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8),rgba(255, 255, 255,0.2));
+    /* background: linear-gradient(180deg, rgba(51, 174, 223, 0.1),rgba(51, 174, 223,0));*/
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.18);
+    /*box-shadow: 0.8px 32px 0 rgba(0,0,0,0.37);*/
+}
