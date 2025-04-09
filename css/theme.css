@@ -8,6 +8,9 @@
     --nav-text-color: hsl(0, 0%, 50%);
     --nav-text-Hovercolor: hsl(0, 0%, 90%);
 
+    --link-text-color: hsl(0, 0%, 0%);
+    --link-text-Hovercolor: hsl(0, 0%, 50%);
+
     --side-padding: 10vw;
 }
 
@@ -52,28 +55,6 @@ main > article{
     color: var(--header-text-color);
 }
 
-/*
-#footer-content a:hover{
-    color: var(--nav-text-Hovercolor);
-}
-
-#footer-content a{
-    text-decoration: none;
-    color: var(--nav-text-color);
-    transition: color 0.5s;
-}
-
-
-#intro-list a:hover{
-    color: var(--nav-text-Hovercolor);
-}
-
-#intro-list a{
-    text-decoration: none;
-    color: var(--nav-text-color);
-    transition: color 0.5s;
-}*/
-
 ul a:hover{
     color: var(--nav-text-Hovercolor);
 }
@@ -82,4 +63,18 @@ ul a{
     text-decoration: none;
     color: var(--nav-text-color);
     transition: color 0.5s;
+}
+
+.proflink:hover{
+    color: var(--link-text-Hovercolor);
+}
+
+.proflink{
+    text-decoration: none;
+    color: var(--link-text-color);
+    transition: color 0.5s;
+}
+
+@media (max-width:679px) {
+    /*TODO*/
 }

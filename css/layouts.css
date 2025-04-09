@@ -42,7 +42,6 @@ nav {
     margin-left: 1em;
 }
 
-
 main{
     padding-left: var(--side-padding);
     padding-right:  var(--side-padding);
@@ -102,7 +101,11 @@ h3 + #address {
 }
 
 #about-me-text{
-    text-align: justify;
+    text-align: center;
+}
+
+#about-me-summary > h3{
+    margin-bottom: -0.5rem;
 }
 
 .secondary-contianer{
@@ -114,6 +117,7 @@ h3 + #address {
 #profile-slider{
     grid-area: profiles;
 }
+
 #main-container {
     grid-template-areas: 'skills aboutMe'
                         'skills profiles';
@@ -169,7 +173,6 @@ progress {
     justify-items: center;
 }
 
-
 #footer-content{
     padding-left: var(--side-padding);
     padding-right:  var(--side-padding);
@@ -179,16 +182,7 @@ progress {
     justify-content: space-evenly;
 }
 
-
-
 @media (max-width:679px) {
-    #main-container {
-        grid-template-areas: 'aboutMe'
-                            'skills'
-                            'profiles';
-        grid-template-columns: 1fr;  
-        grid-template-rows: 1fr 2fr 1fr;  
-    }
 
     #intro-container {
         grid-template-areas:
@@ -197,5 +191,32 @@ progress {
                             'info-list';
         grid-template-columns: auto;  
         grid-template-rows: auto auto auto;  
+        justify-content: center;
+    }
+
+    #main-container {
+        grid-template-areas: 'aboutMe'
+                            'skills'
+                            'profiles';
+        grid-template-columns: 1fr;  
+        grid-template-rows: 1fr auto auto;  
+    }
+
+    #footer-content{
+        padding-left: var(--side-padding);
+        padding-right:  var(--side-padding);
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /*padding-left: var(--side-padding);
+        padding-right: var(--side-padding);*/
     }
 }

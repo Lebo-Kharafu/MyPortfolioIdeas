@@ -9,10 +9,6 @@
     --nav-text-Hovercolor: hsl(0, 0%, 90%);
 }
 
-.layout{
-    display: grid;
-}
-
 #site-Logo {
     width:10em;
     height: auto;
@@ -33,6 +29,10 @@ ul{
     margin-top: 0rem;
     padding-top: var(--img-top-padding);
     text-align: justify;
+}
+
+#about-me-text{
+    font-size: medium;
 }
 
 #currentPosition{
@@ -64,4 +64,8 @@ ul{
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255,255,255,0.18);
     /*box-shadow: 0.8px 32px 0 rgba(0,0,0,0.37);*/
+}
+
+@media (max-width:679px) {
+/*TODO*/
 }

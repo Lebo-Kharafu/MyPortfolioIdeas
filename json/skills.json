@@ -1,42 +1,42 @@
 {
     "Android": {
         "name": "Android",
-        "progress": 65,
+        "progress": 59,
         "src": "/images/icon/Android.png"
     },
     "C++ (CPlusPlus)": {
         "name": "C++ (CPlusPlus)",
-        "progress": 70,
+        "progress": 54,
         "src": "/images/icon/C++ (CPlusPlus).png"
     },
     "CSS3": {
         "name": "CSS3",
-        "progress": 70,
+        "progress": 67,
         "src": "/images/icon/CSS3.png"
     },
     "Git": {
         "name": "Git",
-        "progress": 85,
+        "progress": 69,
         "src": "/images/icon/Git.png"
     },
     "GitHub": {
         "name": "GitHub",
-        "progress": 60,
+        "progress": 52,
         "src": "/images/icon/GitHub.png"
     },
     "HTML5": {
         "name": "HTML5",
-        "progress": 95,
+        "progress": 85,
         "src": "/images/icon/HTML5.png"
     },
     "Java": {
         "name": "Java",
-        "progress": 85,
+        "progress": 75,
         "src": "/images/icon/Java.png"
     },
     "JavaScript": {
         "name": "JavaScript",
-        "progress": 78,
+        "progress": 68,
         "src": "/images/icon/JavaScript.png"
     },
     "JSON": {
@@ -46,7 +46,7 @@
     },
     "LaTeX": {
         "name": "LaTeX",
-        "progress": 68,
+        "progress": 58,
         "src": "/images/icon/LaTeX.png"
     },
     "Markdown": {
@@ -61,12 +61,12 @@
     },
     "NPM": {
         "name": "NPM",
-        "progress": 65,
+        "progress": 45,
         "src": "/images/icon/NPM.png"
     },
     "PHP": {
         "name": "PHP",
-        "progress": 65,
+        "progress": 55,
         "src": "/images/icon/PHP.png"
     },
     "Powershell": {
@@ -76,7 +76,7 @@
     },
     "Python": {
         "name": "Python",
-        "progress": 78,
+        "progress": 68,
         "src": "/images/icon/Python.png"
     },
     "TypeScript": {

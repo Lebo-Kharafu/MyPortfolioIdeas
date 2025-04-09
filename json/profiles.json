@@ -1,22 +1,32 @@
 {
     "Github": {
         "username": "Lebo-Kharafu",
-        "src": "https://img.icons8.com/ios-filled/50/000000/github.png"
+        "src": "https://img.icons8.com/ios-filled/50/000000/github.png",
+        "link": "https://github.com/Lebo-Kharafu",
+        "pic":""
     },
     "LinkedIn": {
         "username": "Lebo-Kharafu",
-        "src": "https://img.icons8.com/ios-filled/50/000000/linkedin.png"
+        "src": "https://img.icons8.com/ios-filled/50/000000/linkedin.png",
+        "link": "https://linkedin.com/in/Lebo-Kharafu",
+        "pic":""
     },
     "Instagram": {
         "username": "@lebzique",
-        "src": "https://img.icons8.com/ios-filled/50/000000/instagram.png"
+        "src": "https://img.icons8.com/ios-filled/50/000000/instagram.png",
+        "link": "https://instagram.com/lebzique",
+        "pic":""
     },
     "Facebook": {
         "username": "Lebo Kharafu",
-        "src": "https://img.icons8.com/ios-filled/50/000000/facebook.png"
+        "src": "https://img.icons8.com/ios-filled/50/000000/facebook.png",
+        "link": "https://facebook.com/Lebo.Kharafu.23",
+        "pic":""
     },
     "Ko-Fi": {
         "username": "lebokharafu",
-        "src": "https://img.icons8.com/ios-filled/50/000000/ko-fi.png"
+        "src": "https://img.icons8.com/ios-filled/50/000000/ko-fi.png",
+        "link": "https://ko-fi.com/lebokharafu",
+        "pic":""
     }
 }

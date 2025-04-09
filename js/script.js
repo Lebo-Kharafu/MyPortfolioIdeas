@@ -57,7 +57,6 @@ function updateProfiles() {
                     // Create a new section element
                     const slideSection = document.createElement('section');
                     slideSection.classList.add('profiles');
-                    //slideSection.classList.add('glass');
 
                     const h1 = document.createElement("h1");
                     const textNode = document.createTextNode(slideKey);
@@ -70,9 +69,14 @@ function updateProfiles() {
                     slideImage.classList.add('accPic');
 
                     const h5 = document.createElement("h5");
-                    const textName = document.createTextNode(prof.username);
-                    h5.appendChild(textName);
+                    const a = document.createElement("a");
+                    a.classList.add('proflink');
+                    a.href = prof.link;
+                    a.target = '_blank';
+                    a.textContent = prof.username;
+                    h5.appendChild(a);
                 
+                    
  
                     // Append the img and progress elements to the skill section
                     slideSection.appendChild(h1);
