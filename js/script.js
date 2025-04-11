@@ -1,7 +1,7 @@
 
 function updateSkillList() {
     // Fetch the JSON data (assuming the file is named 'skills.json')
-    fetch('/json/skills.json')
+    fetch('./json/skills.json')
         .then(response => response.json()) // Parse the JSON data
         .then(data => {
             const skillList = document.getElementById('skillList'); // Get the skill list container
@@ -43,7 +43,7 @@ function updateSkillList() {
 
 function updateProfiles() {
     // Fetch the JSON data (assuming the file is named 'skills.json')
-    fetch('/json/profiles.json')
+    fetch('./json/profiles.json')
         .then(response => response.json()) // Parse the JSON data
         .then(data => {
             const slide = document.getElementById('slider'); // Get the skill list container
