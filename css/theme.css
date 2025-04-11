@@ -14,13 +14,13 @@
     --side-padding: 10vw;
 }
 @font-face {
-    font-family: 'MyCustomFont';
+    font-family: 'AnticDidone';
     src: url('../fonts/AnticDidone.ttf') format('truetype');
 }
 
 body{
     background-color: var(--body-background);
-    font-family: 'MyCustomFont', sans-serif;
+    font-family: 'AnticDidone', sans-serif;
 }
 
 header{
