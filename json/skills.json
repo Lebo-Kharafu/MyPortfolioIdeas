@@ -2,86 +2,134 @@
     "Android": {
         "name": "Android",
         "progress": 59,
-        "src": "./images/icon/Android.png"
+        "src": "https://img.icons8.com/?size=100&id=17836&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "C++ (CPlusPlus)": {
         "name": "C++ (CPlusPlus)",
         "progress": 54,
-        "src": "./images/icon/C++ (CPlusPlus).png"
+        "src": "https://img.icons8.com/?size=100&id=40669&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "CSS3": {
         "name": "CSS3",
         "progress": 67,
-        "src": "./images/icon/CSS3.png"
+        "src": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "Git": {
         "name": "Git",
         "progress": 69,
-        "src": "./images/icon/Git.png"
+        "src": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "GitHub": {
         "name": "GitHub",
         "progress": 52,
-        "src": "./images/icon/GitHub.png"
+        "src": "https://img.icons8.com/?size=100&id=63777&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "HTML5": {
         "name": "HTML5",
         "progress": 85,
-        "src": "./images/icon/HTML5.png"
+        "src": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "Java": {
         "name": "Java",
         "progress": 75,
-        "src": "./images/icon/Java.png"
+        "src": "https://img.icons8.com/?size=100&id=13679&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "JavaScript": {
         "name": "JavaScript",
         "progress": 68,
-        "src": "./images/icon/JavaScript.png"
+        "src": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "JSON": {
         "name": "JSON",
         "progress": 99,
-        "src": "./images/icon/JSON.png"
+        "src": "https://img.icons8.com/?size=100&id=114474&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "LaTeX": {
         "name": "LaTeX",
         "progress": 58,
-        "src": "./images/icon/LaTeX.png"
+        "src": "https://img.icons8.com/?size=100&id=WBooq2dInw0x&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "Markdown": {
         "name": "Markdown",
         "progress": 80,
-        "src": "./images/icon/Markdown.png"
+        "src": "https://img.icons8.com/?size=100&id=21831&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "Node.js": {
         "name": "Node.js",
         "progress": 55,
-        "src": "./images/icon/Node.js.png"
+        "src": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "NPM": {
         "name": "NPM",
         "progress": 45,
-        "src": "./images/icon/NPM.png"
+        "src": "https://img.icons8.com/?size=100&id=24895&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "PHP": {
         "name": "PHP",
         "progress": 55,
-        "src": "./images/icon/PHP.png"
+        "src": "./images/icon/PHP.png",
+        "type":"technical",
+        "path":"self-learn"
     },
     "Powershell": {
         "name": "Powershell",
-        "progress": 42,
-        "src": "./images/icon/Powershell.png"
+        "progress": 32,
+        "src": "https://img.icons8.com/?size=100&id=59500&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "Python": {
         "name": "Python",
         "progress": 68,
-        "src": "./images/icon/Python.png"
+        "src": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     },
     "TypeScript": {
         "name": "TypeScript",
         "progress": 51,
-        "src": "./images/icon/TypeScript.png"
+        "src": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
+    },
+    "Vue3": {
+        "name": "Vue3",
+        "progress": 30,
+        "src": "https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
+    },
+    "Vite": {
+        "name": "Vite",
+        "progress": 35,
+        "src": "https://img.icons8.com/?size=100&id=YO3YqSaTOu5K&format=png&color=000000",
+        "type":"technical",
+        "path":"self-learn"
     }
 }

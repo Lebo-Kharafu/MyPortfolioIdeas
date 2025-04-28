@@ -1,32 +1,50 @@
 {
     "Github": {
         "username": "Lebo-Kharafu",
-        "src": "https://img.icons8.com/ios-filled/50/000000/github.png",
+        "src": "https://img.icons8.com/?size=100&id=63777&format=png&color=000000",
         "link": "https://github.com/Lebo-Kharafu",
         "pic":""
     },
     "LinkedIn": {
         "username": "Lebo-Kharafu",
-        "src": "https://img.icons8.com/ios-filled/50/000000/linkedin.png",
+        "src": "https://img.icons8.com/?size=100&id=13930&format=png&color=000000",
         "link": "https://linkedin.com/in/Lebo-Kharafu",
         "pic":""
     },
     "Instagram": {
         "username": "@lebzique",
-        "src": "https://img.icons8.com/ios-filled/50/000000/instagram.png",
+        "src": "https://img.icons8.com/?size=100&id=32323&format=png&color=000000",
         "link": "https://instagram.com/lebzique",
         "pic":""
     },
     "Facebook": {
         "username": "Lebo Kharafu",
-        "src": "https://img.icons8.com/ios-filled/50/000000/facebook.png",
+        "src": "https://img.icons8.com/?size=100&id=118497&format=png&color=000000",
         "link": "https://facebook.com/Lebo.Kharafu.23",
         "pic":""
     },
     "Ko-Fi": {
         "username": "lebokharafu",
-        "src": "https://img.icons8.com/ios-filled/50/000000/ko-fi.png",
+        "src": "https://img.icons8.com/?size=100&id=wWs0Mvy8dMp2&format=png&color=000000",
         "link": "https://ko-fi.com/lebokharafu",
+        "pic":""
+    },
+    "Paypal": {
+        "username": "LeboKharafu",
+        "src": "https://img.icons8.com/?size=100&id=13611&format=png&color=000000",
+        "link": "https://www.paypal.com/paypalme/LeboKharafu",
+        "pic":""
+    },
+    "Medium": {
+        "username": "@23alphamoon",
+        "src": "https://img.icons8.com/?size=100&id=35858&format=png&color=000000",
+        "link": "https://medium.com/@23alphamoon",
+        "pic":""
+    },
+    "TikTok": {
+        "username": "@kharafu23",
+        "src": "https://img.icons8.com/?size=100&id=118640&format=png&color=000000",
+        "link": "https://www.tiktok.com/@kharafu23",
         "pic":""
     }
 }
