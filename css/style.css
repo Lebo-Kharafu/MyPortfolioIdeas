@@ -21,8 +21,18 @@
 
     --side-padding: 10vw;
 
-    --progress-value-color:#536878;
+    --progress-value-color:#afdfe794;
     --progress-color:hsl(0, 0%, 50%);
+}
+
+progress::-webkit-progress-bar{
+    background-color: radial-gradient(circle, var(--glass-first-grad-color),var(--glass-second-grad-color));
+}
+progress::-webkit-progress-value{
+    background-color: var(--progress-value-color);
+}
+progress::-moz-progress-bar{
+    background-color: var(--progress-value-color);
 }
 
 @font-face {
