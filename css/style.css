@@ -1,21 +1,15 @@
 :root {
-    /* --header-background: hsl(0, 0%, 0%);
-    --body-background: hsl(0, 0%, 41%); */
-    /* --main-background-color: hsl(0, 0%, 100%); */
+
 
     --header-background: #536878;
     --body-background: #EAE0C8;
 
     --header-text-color: hsl(0, 0%, 100%);
-    --main-text-color: hsl(0, 0%, 0%);
-    /* --nav-text-color: hsl(0, 0%, 50%);
-    --nav-text-hover-color: hsl(0, 0%, 90%); */
-
-    /* --link-text-color: hsl(0, 0%, 0%);
-    --link-text-hover-color: hsl(0, 0%, 50%); */
+    --main-text-color: #36535E;
 
 
-    --link-text-color: hsl(0, 0%, 0%);
+
+    --link-text-color: #36535E;
     --link-text-hover-color: hsl(0, 0%, 50%);
 
     --nav-text-hover-color: hsl(0, 0%, 50%);
@@ -26,6 +20,9 @@
     --glass-second-grad-color:rgba(255, 255, 255,0.2);
 
     --side-padding: 10vw;
+
+    --progress-value-color:#536878;
+    --progress-color:hsl(0, 0%, 50%);
 }
 
 @font-face {
@@ -142,6 +139,19 @@ ul a{
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border-color);
 }
+
+/*
+progress::-webkit-progress-bar {
+    background-color: var(--glass-second-grad-color); 
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--progress-value-color); 
+}
+
+progress::-moz-progress-bar {
+    background-color: var(--progress-value-color); 
+}*/
 
 @media (max-width:679px) {
     #MyName, #currentPosition{
