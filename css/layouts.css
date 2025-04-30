@@ -3,15 +3,6 @@
 }
 
 :root {
-    --header-background: hsl(0, 0%, 0%);
-    --body-background: hsl(0, 0%, 41%);
-    --main-background-color: hsl(0, 0%, 100%);
-
-    --header-text-color: hsl(0, 0%, 100%);
-    --main-text-color: hsl(0, 0%, 0%);
-    --nav-text-color: hsl(0, 0%, 50%);
-    --nav-text-Hovercolor: hsl(0, 0%, 90%);
-
     --side-padding: 10vw;
     --img-top-padding: 0.5rem;
     --img-size: 13rem;

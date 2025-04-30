@@ -1,15 +1,29 @@
 :root {
-    --header-background: hsl(0, 0%, 0%);
-    --body-background: hsl(0, 0%, 41%);
-    --main-background-color: hsl(0, 0%, 100%);
+    /* --header-background: hsl(0, 0%, 0%);
+    --body-background: hsl(0, 0%, 41%); */
+    /* --main-background-color: hsl(0, 0%, 100%); */
+
+    --header-background: #536878;
+    --body-background: #EAE0C8;
 
     --header-text-color: hsl(0, 0%, 100%);
     --main-text-color: hsl(0, 0%, 0%);
-    --nav-text-color: hsl(0, 0%, 50%);
-    --nav-text-Hovercolor: hsl(0, 0%, 90%);
+    /* --nav-text-color: hsl(0, 0%, 50%);
+    --nav-text-hover-color: hsl(0, 0%, 90%); */
+
+    /* --link-text-color: hsl(0, 0%, 0%);
+    --link-text-hover-color: hsl(0, 0%, 50%); */
+
 
     --link-text-color: hsl(0, 0%, 0%);
-    --link-text-Hovercolor: hsl(0, 0%, 50%);
+    --link-text-hover-color: hsl(0, 0%, 50%);
+
+    --nav-text-hover-color: hsl(0, 0%, 50%);
+    --nav-text-color: hsl(0, 0%, 100%);
+
+    --glass-border-color: rgba(255,255,255,0.18);
+    --glass-first-grad-color:rgba(255, 255, 255, 0.8);
+    --glass-second-grad-color:rgba(255, 255, 255,0.2);
 
     --side-padding: 10vw;
 }
@@ -45,7 +59,7 @@ main > article{
 }
 
 .proflink:hover{
-    color: var(--link-text-Hovercolor);
+    color: var(--link-text-hover-color);
 }
 
 .proflink{
@@ -55,7 +69,7 @@ main > article{
 }
 
 #nav-Links a:hover{
-    color: var(--nav-text-Hovercolor);
+    color: var(--nav-text-hover-color);
 }
 
 #nav-Links a{
@@ -81,7 +95,7 @@ ul{
 }
 
 ul a:hover{
-    color: var(--nav-text-Hovercolor);
+    color: var(--nav-text-hover-color);
 }
 
 ul a{
@@ -123,19 +137,15 @@ ul a{
 }
 
 .glass{
-    /*background: linear-gradient(45deg, rgba(255, 255, 255, 0.9),rgba(255, 255, 255,0.2));
-     background: linear-gradient(180deg, rgba(51, 174, 223, 0.1),rgba(51, 174, 223,0));*/
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8),rgba(255, 255, 255,0.2));
-    /* background: linear-gradient(180deg, rgba(51, 174, 223, 0.1),rgba(51, 174, 223,0));*/
+    background: radial-gradient(circle, var(--glass-first-grad-color),var(--glass-second-grad-color));
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255,255,255,0.18);
-    /*box-shadow: 0.8px 32px 0 rgba(0,0,0,0.37);*/
+    border: 1px solid var(--glass-border-color);
 }
 
 @media (max-width:679px) {
     #MyName, #currentPosition{
-        text-align: center;
+        text-align: center ;
     }
 }
 
