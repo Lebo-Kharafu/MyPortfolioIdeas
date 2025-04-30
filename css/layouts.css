@@ -72,9 +72,12 @@ main{
     grid-area: info-list;
 }
 #intro-container {
-    grid-template-areas: 'profile-pic name'
-                        'profile-pic info-list';
-    grid-template-columns: 1fr auto;  
+    grid-template-areas: 'profile-pic name';
+                        /* 'profile-pic info-list'; */
+    grid-template-columns: auto;  
+
+    align-items: center;
+    justify-items: center; /*Still reasoning*/
 }
 
 #skill-container{
@@ -187,11 +190,16 @@ progress {
     #intro-container {
         grid-template-areas:
                             'name'
-                            'profile-pic'
-                            'info-list';
+                            'profile-pic';
+                            /* 'info-list'; */
         grid-template-columns: auto;  
-        grid-template-rows: auto auto auto;  
-        justify-content: center;
+        grid-template-rows: auto auto;  
+
+        justify-content: space-between;
+        justify-items: center;
+        align-content: space-between;
+        align-items: center;
+  
     }
 
     #main-container {
@@ -208,7 +216,9 @@ progress {
         margin-top: 1rem;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-items: center; */
+        /* align-content: center; */
+        justify-content: space-around;
     }
 
     nav {
@@ -216,7 +226,11 @@ progress {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        /*padding-left: var(--side-padding);
-        padding-right: var(--side-padding);*/
     }
+
+    #nav-Links{
+        flex-wrap: wrap;
+    }
+
+
 }
