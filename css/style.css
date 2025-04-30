@@ -7,11 +7,62 @@
     --main-text-color: hsl(0, 0%, 0%);
     --nav-text-color: hsl(0, 0%, 50%);
     --nav-text-Hovercolor: hsl(0, 0%, 90%);
+
+    --link-text-color: hsl(0, 0%, 0%);
+    --link-text-Hovercolor: hsl(0, 0%, 50%);
+
+    --side-padding: 10vw;
 }
 
-#site-Logo {
-    width:10em;
-    height: auto;
+@font-face {
+    font-family: 'AnticDidone';
+    src: url('../fonts/AnticDidone.ttf') format('truetype');
+}
+
+body{
+    background-color: var(--body-background);
+    font-family: 'AnticDidone', sans-serif;
+}
+
+header{
+    background-color: var(--header-background);
+    color: var(--header-text-color);
+}
+
+main > section{
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+main > article{
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+#footer-content{
+    background-color: var(--header-background);
+    color: var(--header-text-color);
+}
+
+.proflink:hover{
+    color: var(--link-text-Hovercolor);
+}
+
+.proflink{
+    text-decoration: none;
+    color: var(--link-text-color);
+    transition: color 0.5s;
+}
+
+#nav-Links a:hover{
+    color: var(--nav-text-Hovercolor);
+}
+
+#nav-Links a{
+    text-decoration: none;
+    color: var(--nav-text-color);
+    font-size: 2rem;
+    transition: color 0.5s;
 }
 
 #nav-Links{
@@ -19,8 +70,24 @@
     display: flex; 
 }
 
+#site-Logo {
+    width:10em;
+    height: auto;
+}
+
+
 ul{
     list-style: none;
+}
+
+ul a:hover{
+    color: var(--nav-text-Hovercolor);
+}
+
+ul a{
+    text-decoration: none;
+    color: var(--nav-text-color);
+    transition: color 0.5s;
 }
 
 #MyName{
@@ -71,3 +138,4 @@ ul{
         text-align: center;
     }
 }
+
