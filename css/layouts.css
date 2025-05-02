@@ -189,7 +189,8 @@ progress {
         grid-template-columns: auto;  
         grid-template-rows: auto auto;  
 
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        justify-content: center;
         justify-items: center;
         align-content: space-between;
         align-items: center;
