@@ -113,8 +113,8 @@ h3 + #address {
 }
 
 #main-container {
-    grid-template-areas: 'skills aboutMe'
-                        'skills profiles';
+    grid-template-areas: 'aboutMe skills'
+                        'profiles profiles';
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
 }
