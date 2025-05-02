@@ -78,6 +78,8 @@ main{
 #skill-filter{
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    gap:normal;
 }
 
 #aboutMe-container{
