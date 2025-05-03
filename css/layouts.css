@@ -190,7 +190,7 @@ progress {
   margin-left: 0;
   top: 0;
   right: 0;
-  
+
   width: 250px;
   height: 100vh;
   z-index: 999;
@@ -205,6 +205,11 @@ a {
   width: 100%;
 }
 
+#close_btn{
+  width: 3rem;
+  height: auto;
+}
+
 #menu_btn{
   display: none;
 }
@@ -216,6 +221,10 @@ a {
 
   #menu_btn{
     display: block;
+  }
+  #menu_btn_img{
+    width: 3rem;
+    height: auto;
   }
 
   #intro-container {
