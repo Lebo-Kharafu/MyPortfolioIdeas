@@ -2,6 +2,7 @@
 
 
     --header-background: #536878;
+    --sidenav-background: #53687834;
     --body-background: #EAE0C8;
 
     --header-text-color: hsl(0, 0%, 100%);
@@ -33,6 +34,11 @@ progress::-webkit-progress-value{
 }
 progress::-moz-progress-bar{
     background-color: var(--progress-value-color);
+}
+
+#sidenav{
+    background-color: var(--sidenav-background);
+    backdrop-filter: blur(15px);
 }
 
 @font-face {

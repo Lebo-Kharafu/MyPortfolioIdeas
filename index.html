@@ -16,11 +16,19 @@
     <header>
         <nav id="nav-bar">
             <a href="#"><img id="site-Logo" src="./images/dark/white-logo-transparent.png" alt="The webpage logo"></a>
+            
+            <ul id="sidenav">
+                <li onclick="closeSideNav()"><a href="#"><img src="./images/icon/close_icon.svg" alt="Close Icon"></a></li>
+                <li ><a href="http://2577390.github.io/SD-Lab1">Home</a></li>
+                <li ><a href="https://github.com/Lebo-Kharafu?tab=repositories" target="_blank">Projects</a></li>
+                <li ><a href="https://linkedin.com/in/Lebo-Kharafu" target="_blank">Recruit</a></li>
+            </ul>
+            
             <ul id="nav-Links">
-                <li><a href="http://2577390.github.io/SD-Lab1">Home</a></li>
-                <li><a href="https://github.com/Lebo-Kharafu?tab=repositories" target="_blank">Projects</a></li>
-                <!--<li><a href="./docs/LeboKharafu.pdf" target="_blank">Recruite-me</a></li>-->
-                <li><a href="https://linkedin.com/in/Lebo-Kharafu" target="_blank">Recruit<!---me--></a></li>
+                <li class="hideOnMoblie"><a href="https://linkedin.com/in/Lebo-Kharafu" target="_blank">Recruit</a></li>
+                <li class="hideOnMoblie"><a href="http://2577390.github.io/SD-Lab1">Home</a></li>
+                <li class="hideOnMoblie"><a href="https://github.com/Lebo-Kharafu?tab=repositories" target="_blank">Projects</a></li>
+                <li id="menu_btn" onclick="showSideNav()"><a href="#"><img src="./images/icon/menu_icon.svg" alt="Close Icon"></a></li>
             </ul>
         </nav>
         <hr>
