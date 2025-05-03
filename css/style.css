@@ -37,6 +37,7 @@ progress::-moz-progress-bar{
 }
 
 #sidenav{
+    font-size: 3rem;
     background-color: var(--sidenav-background);
     backdrop-filter: blur(15px);
 }

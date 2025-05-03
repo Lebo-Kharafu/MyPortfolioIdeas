@@ -185,10 +185,12 @@ progress {
 #sidenav {
   position: fixed;
   display: none;
+
   margin-top: 0;
   margin-left: 0;
   top: 0;
   right: 0;
+  
   width: 250px;
   height: 100vh;
   z-index: 999;
