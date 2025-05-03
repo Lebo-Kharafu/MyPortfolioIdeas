@@ -99,9 +99,25 @@ function showSideNav() {
   }
 }
 
+function showModal() {
+    const sidenav = document.getElementById("modal");
+  
+    if (sidenav.style.display === "block") {
+      sidenav.style.display = "none";
+    } else {
+      sidenav.style.display = "block";
+    }
+    closeSideNav();
+  }
+
 function closeSideNav() {
   const sidenav = document.getElementById("sidenav");
   sidenav.style.display = "none";
+}
+
+function closeModal() {
+    const sidenav = document.getElementById("modal");
+    sidenav.style.display = "none";
 }
 
 window.addEventListener("DOMContentLoaded", updateSkillList);

@@ -170,6 +170,11 @@ progress::-moz-progress-bar {
     background-color: var(--progress-value-color); 
 }*/
 
+#modal{
+    background-color: var(--header-background);
+    font-size: 1.2rem;
+  }
+
 @media (max-width:679px) {
     #MyName, #currentPosition{
         text-align: center ;

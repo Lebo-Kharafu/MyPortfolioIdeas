@@ -16,19 +16,22 @@
     <header>
         <nav id="nav-bar">
             <a href="#"><img id="site-Logo" src="./images/dark/white-logo-transparent.png" alt="The webpage logo"></a>
-            
+
             <ul id="sidenav">
-                <li onclick="closeSideNav()"><a href="#"><img id="close_btn" src="./images/icon/close_icon.svg" alt="Close Icon"></a></li>
-                <li ><a href="https://lebo-kharafu.github.io/MyPortfolioIdeas">Home</a></li>
-                <li ><a href="https://github.com/Lebo-Kharafu?tab=repositories" target="_blank">Projects</a></li>
-                <li ><a href="https://linkedin.com/in/Lebo-Kharafu" target="_blank">Recruit</a></li>
+                <li onclick="closeSideNav()"><a href="#"><img id="close_btn" src="./images/icon/close_icon.svg"
+                            alt="Close Icon"></a></li>
+                <li><a href="https://lebo-kharafu.github.io/MyPortfolioIdeas">Home</a></li>
+                <li><a href="https://github.com/Lebo-Kharafu?tab=repositories" target="_blank">Projects</a></li>
+                <li onclick="showModal()"><a href="#">Recruit</a></li>
             </ul>
-            
+
             <ul id="nav-Links">
                 <li class="hideOnMoblie"><a href="https://lebo-kharafu.github.io/MyPortfolioIdeas">Home</a></li>
-                <li class="hideOnMoblie"><a href="https://github.com/Lebo-Kharafu?tab=repositories" target="_blank">Projects</a></li>
-                <li class="hideOnMoblie"><a href="https://linkedin.com/in/Lebo-Kharafu" target="_blank">Recruit</a></li>
-                <li id="menu_btn" onclick="showSideNav()"><a href="#"><img id="menu_btn_img" src="./images/icon/menu_icon.svg" alt="Close Icon"></a></li>
+                <li class="hideOnMoblie"><a href="https://github.com/Lebo-Kharafu?tab=repositories"
+                        target="_blank">Projects</a></li>
+                <li class="hideOnMoblie" onclick="showModal()"><a href="#">Recruit</a></li>
+                <li id="menu_btn" onclick="showSideNav()"><a href="#"><img id="menu_btn_img"
+                            src="./images/icon/menu_icon.svg" alt="Close Icon"></a></li>
             </ul>
         </nav>
         <hr>
@@ -39,16 +42,50 @@
                     <h1 id="MyName">Lebo Kharafu</h1>
                     <h5 id="currentPosition">Bsc Computer Science at Wits 2023-Present</h5>
                 </section>
-                <!--<section id="intro-info">
-                    <ul id="intro-list">
-                        <li><a href="https://linkedin.com/in/Lebo-Kharafu" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://ko-fi.com/lebokharafu" target="_blank">Ko-Fi</a></li>
-                        <li><a href="https://github.com/Lebo-Kharafu" target="_blank">Github</a></li>
-                        <li><a href="#">Feenix</a></li>
-                    </ul>-->
-                </section>
             </aside>
         </section>
+
+        <article id="modal">
+            <form action="" method="">
+                <fieldset>
+                    <legend>Get my Resume (CV)</legend>
+                    
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name" aria-required="true">
+                    <br>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email" aria-required="true">
+                
+                    <fieldset>
+                        <legend>Select Resume (CV) Options</legend>
+                
+                        <label for="pdf-length">Choose Resume Length:</label>
+                        <select id="pdf-length" name="pdf-length" required>
+                            <option value="short">Short</option>
+                            <option value="long">Long</option>
+                        </select>
+                        <br>
+                        <label for="transcript">Do you want a transcript?</label>
+                        <br>
+                        <label>
+                            <input type="radio" id="transcript-yes" name="transcript" value="yes">
+                            Yes
+                        </label>
+                        <label>
+                            <input type="radio" id="transcript-no" name="transcript" value="no">
+                            No
+                        </label>
+                    </fieldset>
+                    
+                    <section id="modal-button">
+                        <button type="submit">Submit</button>
+                        <button type="button" onclick="closeModal()">Close</button>
+                    </section>
+                </fieldset>
+            </form>
+        </article>      
+        
+
     </header>
     <main class="layout" id="main-container">
         <section class="secondary-contianer glass" id="skill-container">
@@ -85,12 +122,14 @@
             <!--<section>
                 <h3>Location </h3>
                 <p id="address">South Africa, Free State, Lejweleputswa, Matjhabeng, Welkom, 9460 </p>
-            </section>--> 
+            </section>-->
             <section id="about-me-summary">
                 <!--<h3>Sammary</h3>-->
                 <p id="about-me-text">
-                    Hello, I'm Lebo Kharafu, a third-year Computer Science student at University of Witswatersrand. My passion for
-                    technology and problem-solving has driven me to explore: Software Development & Design, Cybersecurity, Creative Coding, and recently Machine Learning, where I
+                    Hello, I'm Lebo Kharafu, a third-year Computer Science student at University of Witswatersrand. My
+                    passion for
+                    technology and problem-solving has driven me to explore: Software Development & Design,
+                    Cybersecurity, Creative Coding, and recently Machine Learning, where I
                     continuously seek to enhance my skills and knowledge.
                 </p>
                 <p id="about-me-text">
@@ -105,11 +144,13 @@
                 </p>
                 <p id="about-me-text">
                     I am driven by a curiosity to solve complex problems and a commitment to continuous learning. My
-                    goal is to one day earn a Turing Award in Computer Sceince Research, Open a startUp mainly amimed to Train High Schoolers to
-                    Code-Develop-Maintain software like I was given the chance. 
-                    I am always eager to take on new challenges and connect with like-minded individuals to create impactful solutions.
+                    goal is to one day earn a Turing Award in Computer Sceince Research, Open a startUp mainly amimed to
+                    Train High Schoolers to
+                    Code-Develop-Maintain software like I was given the chance.
+                    I am always eager to take on new challenges and connect with like-minded individuals to create
+                    impactful solutions.
                 </p>
-                
+
             </section>
         </section>
         <article class="secondary-contianer glass" id="profile-slider">
@@ -134,7 +175,7 @@
             </section>
         </article>
     </main>
-    <footer class="secondary-contianer"  id="footer-content">
+    <footer class="secondary-contianer" id="footer-content">
         <ul id="footer-list">
             <li> &copy; 2025</li>
             <!--<li><a href="#">Contact me</a></li>-->
