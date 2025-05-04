@@ -44,47 +44,48 @@
                 </section>
             </aside>
         </section>
-
-        <article id="modal">
-            <form action="" method="">
-                <fieldset>
-                    <legend>Get my Resume (CV)</legend>
-                    
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" required placeholder="Enter your name" aria-required="true">
-                    <br>
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email" name="email" required placeholder="Enter your email" aria-required="true">
-                
-                    <fieldset>
-                        <legend>Select Resume (CV) Options</legend>
-                
-                        <label for="pdf-length">Choose Resume Length:</label>
-                        <select id="pdf-length" name="pdf-length" required>
-                            <option value="short">Short</option>
-                            <option value="long">Long</option>
-                        </select>
-                        <br>
-                        <label for="transcript">Do you want a transcript?</label>
-                        <br>
-                        <label>
-                            <input type="radio" id="transcript-yes" name="transcript" value="yes">
-                            Yes
-                        </label>
-                        <label>
-                            <input type="radio" id="transcript-no" name="transcript" value="no">
-                            No
-                        </label>
-                    </fieldset>
-                    
-                    <section id="modal-button">
-                        <button type="submit">Submit</button>
-                        <button type="button" onclick="closeModal()">Close</button>
-                    </section>
-                </fieldset>
-            </form>
-        </article>      
         
+        <section id="modal-contain">
+            <article id="modal">
+                <form action="" method="">
+                    <fieldset>
+                        <legend>Get my Resume (CV)</legend>
+                        
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name" aria-required="true">
+                        <br>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email" aria-required="true">
+                    
+                        <fieldset>
+                            <legend>Select Resume (CV) Options</legend>
+                    
+                            <label for="pdf-length">Choose Resume Length:</label>
+                            <select id="pdf-length" name="pdf-length" required>
+                                <option value="short">Short</option>
+                                <option value="long">Long</option>
+                            </select>
+                            <br>
+                            <label for="transcript">Do you want a transcript?</label>
+                            <br>
+                            <label>
+                                <input type="radio" id="transcript-yes" name="transcript" value="yes">
+                                Yes
+                            </label>
+                            <label>
+                                <input type="radio" id="transcript-no" name="transcript" value="no">
+                                No
+                            </label>
+                        </fieldset>
+                        
+                        <section id="modal-button">
+                            <button type="submit">Submit</button>
+                            <button type="button" onclick="closeModal()">Close</button>
+                        </section>
+                    </fieldset>
+                </form>
+            </article>      
+        </section>
 
     </header>
     <main class="layout" id="main-container">

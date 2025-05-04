@@ -101,11 +101,14 @@ function showSideNav() {
 
 function showModal() {
     const sidenav = document.getElementById("modal");
+    const container = document.getElementById("modal-contain");
   
     if (sidenav.style.display === "block") {
       sidenav.style.display = "none";
+      container.style.display = "none";
     } else {
       sidenav.style.display = "block";
+      container.style.display = "block";
     }
     closeSideNav();
   }
@@ -117,7 +120,9 @@ function closeSideNav() {
 
 function closeModal() {
     const sidenav = document.getElementById("modal");
+    const container = document.getElementById("modal-contain");
     sidenav.style.display = "none";
+    container.style.display = "none";
 }
 
 window.addEventListener("DOMContentLoaded", updateSkillList);
