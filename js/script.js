@@ -100,18 +100,18 @@ function showSideNav() {
 }
 
 function showModal() {
-    const sidenav = document.getElementById("modal");
-    const container = document.getElementById("modal-contain");
-  
-    if (sidenav.style.display === "block") {
-      sidenav.style.display = "none";
-      container.style.display = "none";
-    } else {
-      sidenav.style.display = "block";
-      container.style.display = "block";
-    }
-    closeSideNav();
+  const modal = document.getElementById("modal");
+  const container = document.getElementById("modal-contain");
+
+  if (modal.style.display === "block") {
+    modal.style.display = "none";
+    container.style.display = "none";
+  } else {
+    modal.style.display = "block";
+    container.style.display = "block";
   }
+  closeSideNav();
+}
 
 function closeSideNav() {
   const sidenav = document.getElementById("sidenav");
@@ -119,11 +119,42 @@ function closeSideNav() {
 }
 
 function closeModal() {
-    const sidenav = document.getElementById("modal");
-    const container = document.getElementById("modal-contain");
-    sidenav.style.display = "none";
-    container.style.display = "none";
+  // const modal = document.getElementById("modal");
+  const container = document.getElementById("modal-contain");
+  // modal.style.display = "none";
+  container.style.display = "none";
 }
 
+function closeModalBgClick(event) {
+  const modal = document.getElementById("modal");
+  const container = document.getElementById("modal-contain");
+  // modal.style.display = "none";
+  // container.style.display = "none";
+
+
+  if ((modal && container) && (!modal.contains(event.target) && event.target !== modal) && (container.contains(event.target) && event.target === container)) {
+    // alert(`Clicked outside of Modal ${event}`);
+    modal.style.display = "none";
+    container.style.display = "none";
+  } else {
+    // alert(`Clicked inside of Modal ${event}`);
+  }
+
+
+}
+
+
+function sendPdf() {
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const resumeLength = document.getElementById('pdf-length').value;
+  const transcript = document.querySelector('input[name="transcript"]:checked')?.value;
+  const formData = { name, email, resumeLength, transcript };
+ 
+  alert('Pdf sent with data: ' + JSON.stringify(formData));
+
+  closeModal();
+}
 window.addEventListener("DOMContentLoaded", updateSkillList);
 window.addEventListener("DOMContentLoaded", updateProfiles);

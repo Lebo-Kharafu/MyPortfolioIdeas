@@ -45,9 +45,9 @@
             </aside>
         </section>
         
-        <section id="modal-contain">
+        <section id="modal-contain" onclick="closeModalBgClick(event)">
             <article id="modal">
-                <form action="" method="">
+                <form action="" method="" onsubmit="return false;">
                     <fieldset>
                         <legend>Get my Resume (CV)</legend>
                         
@@ -79,7 +79,7 @@
                         </fieldset>
                         
                         <section id="modal-button">
-                            <button type="submit">Submit</button>
+                            <button type="submit" onclick="sendPdf()">Submit</button>
                             <button type="button" onclick="closeModal()">Close</button>
                         </section>
                     </fieldset>
