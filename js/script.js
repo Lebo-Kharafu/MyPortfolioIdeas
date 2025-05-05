@@ -148,9 +148,9 @@ function sendPdf() {
 
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
-  const resumeLength = document.getElementById('pdf-length').value;
+  const resumeType = document.getElementById('pdf-type').value;
   const transcript = document.querySelector('input[name="transcript"]:checked')?.value;
-  const formData = { name, email, resumeLength, transcript };
+  const formData = { name, email, resumeLength: resumeType, transcript };
  
   alert('Pdf sent with data: ' + JSON.stringify(formData));
 
