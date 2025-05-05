@@ -152,8 +152,19 @@ function sendPdf() {
   const transcript = document.querySelector('input[name="transcript"]:checked')?.value;
   const formData = { name, email, resumeLength: resumeType, transcript };
  
-  alert('Pdf sent with data: ' + JSON.stringify(formData));
-
+  alert(`
+    Dear Recruiter/Visitor,
+  
+    Apologies for the inconvenience, but please note that the PDF will be sent with the following data once fully implemented:
+  
+    Name: ${formData.name}
+    Email: ${formData.email}
+    Resume Type: ${formData.resumeLength}
+    Transcript: ${formData.transcript}
+  
+    Thank you for your understanding!
+  `);
+  
   closeModal();
 }
 window.addEventListener("DOMContentLoaded", updateSkillList);
