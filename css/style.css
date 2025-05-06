@@ -179,6 +179,17 @@ progress::-moz-progress-bar {
     -webkit-backdrop-filter: blur(10px);
   }
 
+  .project-card{
+    border-radius: 2%;
+    border-style: ridge ;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    /* background-color: radial-gradient(circle, var(--glass-first-grad-color),var(--glass-second-grad-color)); */
+
+    
+  }
+
 @media (max-width:679px) {
     #MyName, #currentPosition{
         text-align: center ;

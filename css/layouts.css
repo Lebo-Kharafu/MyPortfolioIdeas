@@ -249,6 +249,31 @@ fieldset{
   margin: 0.5rem;
 }
 
+.project-card{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  max-width: 20vw;
+  min-width: 15rem;
+  padding: 0.5rem;
+
+  text-align: center;
+
+}
+
+#project-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
 @media (max-width: 730px) {
   .hideOnMoblie{
     display: none;
