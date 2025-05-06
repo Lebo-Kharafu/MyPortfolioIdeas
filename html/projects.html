@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/layouts.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="html" href="../index.html">
+    <link rel="icon" href="../images/icon/favicon.ico" type="image/x-icon">
+    <script src="../js/script.js"></script>
+    <title>Lebo Kharafu</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <a href="#"><img id="site-Logo" src="../images/dark/white-logo-transparent.png" alt="The webpage logo"></a>
+
+            <ul id="sidenav">
+                <li onclick="closeSideNav()"><a href="#"><img id="close_btn" src="./images/icon/close_icon.svg"
+                            alt="Close Icon"></a></li>
+                <li><a href="https://lebo-kharafu.github.io/MyPortfolioIdeas">Home</a></li>
+                <li><a href="https://github.com/Lebo-Kharafu?tab=repositories" target="_blank">Projects</a></li>
+                <li onclick="showModal()"><a href="#">Recruit</a></li>
+            </ul>
+
+            <ul id="nav-Links">
+                <li class="hideOnMoblie"><a href="https://lebo-kharafu.github.io/MyPortfolioIdeas">Home</a></li>
+                <li class="hideOnMoblie"><a href="https://github.com/Lebo-Kharafu?tab=repositories"
+                        target="_blank">Projects</a></li>
+                <li class="hideOnMoblie" onclick="showModal()"><a href="#">Recruit</a></li>
+                <li id="menu_btn" onclick="showSideNav()"><a href="#"><img id="menu_btn_img"
+                            src="./images/icon/menu_icon.svg" alt="Close Icon"></a></li>
+            </ul>
+        </nav>        
+        <section id="modal-contain" onclick="closeModalBgClick(event)">
+            <article id="modal">
+                <form action="" method="" onsubmit="return false;">
+                    <fieldset>
+                        <legend>Get my Resume (CV)</legend>
+                        
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name" aria-required="true">
+                        <br>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email" aria-required="true">
+                    
+                        <fieldset>
+                            <legend>Select Resume (CV) Options</legend>
+                    
+                            <label for="pdf-type">Choose Resume(CV) Type:</label>
+                            <select id="pdf-type" name="pdf-type" required>
+                                <option value="onePage">One-Page-ATS</option>
+                                <option value="ats">Formal-ATS</option>
+                                <option value="creative">Creative</option>
+                                <option value="extensive">Extensive</option>
+                                <option value="all">All</option>
+                            </select>
+                            <br>
+                            <label for="transcript">Do you want a transcript?</label>
+                            <br>
+                            <label>
+                                <input type="radio" id="transcript-yes" name="transcript" value="yes">
+                                Yes
+                            </label>
+                            <label>
+                                <input type="radio" id="transcript-no" name="transcript" value="no">
+                                No
+                            </label>
+                        </fieldset>
+                        
+                        <section id="modal-button">
+                            <button type="submit" onclick="sendPdf()">Submit</button>
+                            <button type="button" onclick="closeModal()">Close</button>
+                        </section>
+                    </fieldset>
+                </form>
+            </article>      
+        </section>
+    </header>
+</body>
+
+</html>
