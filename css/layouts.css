@@ -274,6 +274,11 @@ fieldset{
 
 }
 
+.project-image{
+  width: 10rem;
+  height: auto;
+}
+
 @media (max-width: 730px) {
   .hideOnMoblie{
     display: none;

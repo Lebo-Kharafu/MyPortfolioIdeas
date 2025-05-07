@@ -169,3 +169,49 @@ function sendPdf() {
 }
 window.addEventListener("DOMContentLoaded", updateSkillList);
 window.addEventListener("DOMContentLoaded", updateProfiles);
+async function displayRepositories() {
+  try {
+    const response = await fetch('https://api.github.com/users/Lebo-Kharafu/repos');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const repos = await response.json();
+    const container = document.getElementById('project-gallery');
+    
+    repos.forEach(repo => {
+
+      const a = document.createElement('a');
+      a.href = repo.html_url;
+
+      const card = document.createElement('section');
+      card.className = 'project-card';
+
+      const title = document.createElement('h2');
+      title.textContent = repo.name;
+
+      const image = document.createElement('img');
+      image.className = 'project-image';
+      image.src = '../images/random-placeholder/project.jpg';
+      image.alt = 'Project picture';
+  
+
+      // Repository description
+      const description = document.createElement('p');
+      description.textContent = repo.description || 'No description provided.';
+
+      // Append elements to the card
+      card.appendChild(title);
+      // card.appendChild(image);
+      card.appendChild(description);
+
+      // Append the card to the container
+      container.appendChild(card);
+      
+    });
+  } catch (error) {
+    console.error('Error fetching repositories:', error);
+  }
+}
+
+// Call the function to display repositories
+displayRepositories();
