@@ -250,6 +250,23 @@ fieldset{
 }
 
 .project-card{
+  /* display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center; */
+
+  max-width: 20vw;
+  min-width: 15rem;
+  /* padding: 0.5rem; */
+
+  text-align: center;
+
+}
+
+
+/* EXPIRAMENTAL */
+.card-link {
   display: flex;
   flex-direction: column;
 
@@ -259,8 +276,6 @@ fieldset{
   max-width: 20vw;
   min-width: 15rem;
   padding: 0.5rem;
-
-  text-align: center;
 
 }
 

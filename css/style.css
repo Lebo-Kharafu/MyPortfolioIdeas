@@ -16,27 +16,29 @@
     --nav-text-hover-color: hsl(0, 0%, 50%);
     --nav-text-color: hsl(0, 0%, 100%);
 
-    --glass-border-color: rgba(255,255,255,0.18);
-    --glass-first-grad-color:rgba(255, 255, 255, 0.8);
-    --glass-second-grad-color:rgba(255, 255, 255,0.2);
+    --glass-border-color: rgba(255, 255, 255, 0.18);
+    --glass-first-grad-color: rgba(255, 255, 255, 0.8);
+    --glass-second-grad-color: rgba(255, 255, 255, 0.2);
 
     --side-padding: 10vw;
 
-    --progress-value-color:#afdfe794;
-    --progress-color:hsl(0, 0%, 50%);
+    --progress-value-color: #afdfe794;
+    --progress-color: hsl(0, 0%, 50%);
 }
 
-progress::-webkit-progress-bar{
-    background-color: radial-gradient(circle, var(--glass-first-grad-color),var(--glass-second-grad-color));
+progress::-webkit-progress-bar {
+    background-color: radial-gradient(circle, var(--glass-first-grad-color), var(--glass-second-grad-color));
 }
-progress::-webkit-progress-value{
-    background-color: var(--progress-value-color);
-}
-progress::-moz-progress-bar{
+
+progress::-webkit-progress-value {
     background-color: var(--progress-value-color);
 }
 
-#sidenav{
+progress::-moz-progress-bar {
+    background-color: var(--progress-value-color);
+}
+
+#sidenav {
     font-size: 3rem;
     background-color: var(--sidenav-background);
     backdrop-filter: blur(15px);
@@ -47,78 +49,78 @@ progress::-moz-progress-bar{
     src: url('../fonts/AnticDidone.ttf') format('truetype');
 }
 
-body{
+body {
     background-color: var(--body-background);
     font-family: 'AnticDidone', sans-serif;
 }
 
-header{
+header {
     background-color: var(--header-background);
     color: var(--header-text-color);
 }
 
-main > section{
+main>section {
     background-color: var(--main-background-color);
     color: var(--main-text-color);
 }
 
-main > article{
+main>article {
     background-color: var(--main-background-color);
     color: var(--main-text-color);
 }
 
-#footer-content{
+#footer-content {
     background-color: var(--header-background);
     color: var(--header-text-color);
 }
 
-.proflink:hover{
+.proflink:hover {
     color: var(--link-text-hover-color);
 }
 
-.proflink{
+.proflink {
     text-decoration: none;
     color: var(--link-text-color);
     transition: color 0.5s;
 }
 
-#nav-Links a:hover{
+#nav-Links a:hover {
     color: var(--nav-text-hover-color);
 }
 
-#nav-Links a{
+#nav-Links a {
     text-decoration: none;
     color: var(--nav-text-color);
     font-size: 2rem;
     transition: color 0.5s;
 }
 
-#nav-Links{
+#nav-Links {
     list-style: none;
-    display: flex; 
+    display: flex;
 }
 
 #site-Logo {
-    width:10em;
+    width: 10em;
     height: auto;
 }
 
 
-ul{
+ul {
     list-style: none;
 }
 
-ul a:hover{
+ul a:hover {
     color: var(--nav-text-hover-color);
 }
 
-ul a{
+ul a {
     text-decoration: none;
     color: var(--nav-text-color);
     transition: color 0.5s;
 }
 
-#MyName{
+#MyName {
     font-size: 3rem;
     margin-bottom: 0rem;
     margin-top: 0rem;
@@ -126,32 +128,32 @@ ul a{
     text-align: justify;
 }
 
-#about-me-text{
+#about-me-text {
     font-size: medium;
 }
 
-#currentPosition{
+#currentPosition {
     font-size: 1rem;
     text-align: justify;
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
 
-#intro-list{
+#intro-list {
     list-style: none;
     font-size: 1.2rem;
 }
 
-.section-heading{
+.section-heading {
     text-align: center;
 }
 
-#address{
+#address {
     font-size: small;
 }
 
-.glass{
-    background: radial-gradient(circle, var(--glass-first-grad-color),var(--glass-second-grad-color));
+.glass {
+    background: radial-gradient(circle, var(--glass-first-grad-color), var(--glass-second-grad-color));
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border-color);
@@ -170,29 +172,35 @@ progress::-moz-progress-bar {
     background-color: var(--progress-value-color); 
 }*/
 
-#modal{
+#modal {
     background-color: var(--header-background);
     font-size: 1.2rem;
-  }
-  #modal-contain{
+}
+
+#modal-contain {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-  }
+}
 
-  .project-card{
+.project-card {
     border-radius: 2%;
-    border-style: ridge ;
+    border-style: ridge;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 
     /* background-color: radial-gradient(circle, var(--glass-first-grad-color),var(--glass-second-grad-color)); */
+}
 
-    
+/* EXPIRAMENTAL */
+.card-link {
+    text-decoration: none;
+    color: inherit;
   }
 
 @media (max-width:679px) {
-    #MyName, #currentPosition{
-        text-align: center ;
+
+    #MyName,
+    #currentPosition {
+        text-align: center;
     }
 }
-

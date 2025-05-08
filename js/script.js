@@ -182,6 +182,8 @@ async function displayRepositories() {
 
       const a = document.createElement('a');
       a.href = repo.html_url;
+      a.className = 'card-link';
+      a.target = '_blank';
 
       const card = document.createElement('section');
       card.className = 'project-card';
@@ -200,9 +202,14 @@ async function displayRepositories() {
       description.textContent = repo.description || 'No description provided.';
 
       // Append elements to the card
-      card.appendChild(title);
-      // card.appendChild(image);
-      card.appendChild(description);
+      // card.appendChild(title);
+      // // card.appendChild(image);
+      // card.appendChild(description);
+
+      /* EXPIRAMENTAL */
+      a.appendChild(title);
+      a.appendChild(description);
+      card.appendChild(a);
 
       // Append the card to the container
       container.appendChild(card);
